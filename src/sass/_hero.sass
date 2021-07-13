@@ -2,13 +2,12 @@
     background-image: url(../img/hero/hero-bg.png)
     background-repeat: no-repeat
     background-position: center top
-    background-size: contain
-    min-height: 1400px
+    background-size: cover
+    padding-bottom: 400px
     &-title
         padding: 58px 0px 0px 58px
         font-size: 88px
         line-height: 88px
-        color: $black
         max-width: 453px
 @media (max-width: 768px)
     .hero
@@ -17,12 +16,13 @@
             line-height: 70px
 @media (max-width: 576px)
     .hero
-        background-image: url(../img/hero/hero-bg-sm.png)
+        // background-image: url(../img/hero/hero-bg-sm.png)
         display: flex
         justify-content: center
+        align-items: center
         &-title 
             padding-left: 0px
-            padding-top: 1vh
+            padding-top: 70px
             text-align: center
             max-width: 350px
             font-size: 60px
