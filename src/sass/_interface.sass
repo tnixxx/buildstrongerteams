@@ -12,15 +12,28 @@ $black: #111237
         justify-content: space-between
         align-items: center
     &-container
+        max-width: 500px
         &__title
             font-size: 40px
             line-height: 49px
         &__text
             font-size: 24px
             line-height: 34px
+        &-advantages
+            padding: 0
+            display: flex
+            flex-direction: column
+            list-style-type: none
+            &-item
+                margin-top: 20px
+                display: flex
+                align-items: baseline
+                &__text
+                    margin-left: 20px
     &__img
         max-width: 652px
         width: 100%
+
 @media (max-width: 1300px)
     .block
         margin-top: 100px
@@ -30,7 +43,5 @@ $black: #111237
             text-align: center
             margin-top: 100px
             flex-direction: column
-        &-container
-            max-width: 500px
         &__img
             margin-top: 50px
